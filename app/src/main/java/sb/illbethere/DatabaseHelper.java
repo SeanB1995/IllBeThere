@@ -1,8 +1,10 @@
 package sb.illbethere;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 /**
  * Created by Sean on 24/06/2017.
@@ -30,5 +32,22 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP IF TABLE EXISTS " + TABLE_NAME);
         onCreate(db);
+    }
+
+    public boolean addData(String item){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(COL2, item);
+
+        Log.d(TAG, "addData: Adding " +item + " to " + TABLE_NAME);
+
+        long result = db.insert(TABLE_NAME, null, contentValues);
+
+        if (result == -1 ){
+            return false;
+        }
+        else{
+            return true;
+        }
     }
 }
