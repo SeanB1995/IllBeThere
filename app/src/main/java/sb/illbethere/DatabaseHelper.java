@@ -2,6 +2,7 @@ package sb.illbethere;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
@@ -49,5 +50,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         else{
             return true;
         }
+    }
+
+    public Cursor getData(){
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_NAME;
+        Cursor data = db.rawQuery(query, null);
+        return data;
     }
 }
