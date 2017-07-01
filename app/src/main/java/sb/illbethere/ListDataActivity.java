@@ -1,5 +1,6 @@
 package sb.illbethere;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -45,6 +46,21 @@ public class ListDataActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String name = adapterView.getItemAtPosition(i).toString();
+
+                Cursor data = myDatabaseHelper.getItemID(name);
+                int itemID = -1;
+                while (data.moveToNext()){
+                    itemID = data.getInt(0);
+                }
+                if (itemID > -1){
+                    Intent editScreenIntent = new Intent(ListDataActivity.this, EditDataActivity.class);
+                    editScreenIntent.putExtra("id", itemID);
+                    editScreenIntent.putExtra("name", name);
+                    startActivity(editScreenIntent);
+                }
+                else{
+                    toastMessage("ID = NO");
+                }
             }
         });
     }
