@@ -2,10 +2,12 @@ package sb.illbethere;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.support.annotation.Nullable;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 /**
  * Created by Sean on 02/07/2017.
@@ -37,5 +39,9 @@ public class EditDataActivity extends AppCompatActivity {
         selectedName = recievedIntent.getStringExtra("name");
         selectedID = recievedIntent.getIntExtra("ID", -1);
         editable_Item.setText(selectedName);
+
+    }
+    private void toastMessage(String message){
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 }
