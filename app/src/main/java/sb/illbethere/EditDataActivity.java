@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.support.annotation.Nullable;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -40,7 +41,29 @@ public class EditDataActivity extends AppCompatActivity {
         selectedID = recievedIntent.getIntExtra("ID", -1);
         editable_Item.setText(selectedName);
 
+        btnSave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String item = editable_Item.getText().toString();
+                if(!item.equals("")){
+                    myDatabaseHelper.updateName(item,selectedID,selectedName);
+                }else{
+                    toastMessage("You must enter a name");
+                }
+            }
+        });
+
+        btnDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                myDatabaseHelper.deleteName(selectedID,selectedName);
+                editable_Item.setText("");
+                toastMessage("removed from database");
+            }
+        });
     }
+
+
     private void toastMessage(String message){
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
