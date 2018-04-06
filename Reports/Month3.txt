@@ -1,0 +1,8 @@
+	The month started with a member of corporate services division over to check on the progress and discuss the future direction of the project. She was joined in the meeting was attended by supervisor, line manager and another member of the team before coming over to my desk for a demo. However essential updates in the midst of installing instead forced a verbal run through with the aid of screenshots. The feedback received was positive with surprise expressed at the overall progress of the project. Some things like the colour scheme and making the website accessible to all were brought up as necessary improvements needed. A comprehensive document containing all the notes from the meeting with all points made by both sides was sent on to me.
+	On the back of the meeting, a work schedule was then created by the software dev, signed off by my supervisor. Effectively this contained a list of all task required for the project with a grading of easy, medium or hard attached to each so everyone will have a fair idea of each tasks respective difficulty.
+Central Database issue 
+
+Code Merge - With the front end of the         and the complexity of work schedule task functionalities needing to be connected to work,   
+-To do this - open merge request
+-Fine combed through, discussion on validity of many lines of code
+-Resolve many dead ends – Some broke website had to be fixed
