@@ -1,0 +1,98 @@
+
+-------------(Theres 3/4 other modules which are seem to be all the same for all streams like ai/web service/business nonsense and that so i guess everyones together for them)-----------------------
+-----------------------------------------------------------------------------------------------------------
+---------
+Iot
+----------
+
+Multimedia and Mobile Application Development - All alround making an app that can keeps in mind everything e.g can control the phones volume, take picture etc. However not sure if you have to make an app yourself or is it theroizing it. All CA
+
+IOt principles - Looks like networking module. Mainly theory with a little programming and with an exam
+
+Data Mining and Visualisation - Looks extremly tough going through iot datasets. But 20% is presentation and another 20% is as a group defending something?
+
+IOT Application Development - No info
+
+Cloud Application Development - 100% project doing an SaaS app which apparently is making an application to run on a server that people can use so kind of like paypal or something idk  
+
+
+---------
+Cloud - (Hasnt happened in 2 years)
+----------
+
+Data Application Development - Data analytics module. Programming using some language and making algorithms. But 50 CA 50 Project
+
+Cloud Computing - 100% exam. Seems all theory just everything cloud computing related
+
+Cloud Application Development - 100% project doing an SaaS app which apparently is making an application to run on a server that people can use so kind of like paypal or something idk  
+
+Computing Infrastructure - Very broad. 70% ca which seems all programming and configuring stuff validitaing and authroizing
+
+Distributed Systems - 25 EXAM 25 group project. Rest ca but stuff like editing a messaging system code to make it better. All communicating to others on a network type of thing peer to peer like.
+
+
+
+------------
+Cyber
+-----------
+Advanced Secure Programming - Code programming crap look for errors fix them all that
+
+Digital Forensics - 50/50. Seems a bit of both theory and doing stuff. Quite general and broad like identify traffic on a network
+
+Penetration Testing - Bit of wireshark in there, broken into 3 section - web/app/network security. Seems more theory.
+
+Secure Application Development - Pretty self explantory. 50% Make proper secure web app. Other half weekly CA
+
+Security Principles - Again pretty self explantory. All security stuff 50/50. Use a program that can encryption/decryption text data.
+
+
+-----------
+Software Dev (Mixture of all the others?????)
+------------
+Data Application Development - Data analytics module. Programming using some language and making algorithms. But 50 CA 50 Project
+
+Cloud Application Development - 100% project doing an SaaS app which apparently is making an application to run on a server that people can use so kind of like paypal or something idk  
+
+Distributed Systems - 25 EXAM 25 group project. Rest ca but stuff like editing a messaging system code to make it better. All communicating to others on a network type of thing peer to peer like.
+
+Multimedia and Mobile Application Development - All alround making an app that can keeps in mind everything e.g can control the phones volume, take picture etc. However not sure if you have to make an app yourself or is it theroizing it. All CA
+
+Usability Design - Seems to be do something like you did for team project but by yourself and then do all testing on it and a lot of documentation crap.
+
+--------------
+Mobile Apps
+--------------
+Multimedia and Mobile Application Development - All alround making an app that can keeps in mind everything e.g can control the phones volume, take picture etc. However not sure if you have to make an app yourself or is it theroizing it. All CA
+
+Distributed Systems - 25 EXAM 25 group project. Rest ca but stuff like editing a messaging system code to make it better. All communicating to others on a network type of thing peer to peer like.
+
+Usability Design - Seems to be do something like you did for team project but by yourself and then do all testing on it and a lot of documentation crap.
+
+Advanced Mobile Application Development - As it says advanced app making using framworks. 3 different cas. One make an app in class based on a problem given other theory and the other just make one in general
+
+--------------
+Gaming (Wasnt on last year)
+-------------
+
+Computer Graphics Design and Animation - Modelling stuff using blender and other stuff and also all stuff surronding it around rending/shapes/ amination. 50 project/50exam
+
+Multimedia and Mobile Application Development - All alround making an app that can keeps in mind everything e.g can control the phones volume, take picture etc. However not sure if you have to make an app yourself or is it theroizing it. All CA
+
+Usability Design - Seems to be do something like you did for team project but by yourself and then do all testing on it and a lot of documentation crap.
+
+Applied Artificial Intelligence - All AI stuff. 50/50 idk what more to say
+
+Cloud Gaming - All basis like how to do it to security of making games for the cloud. Seems mixture of theory and programming
+
+--------------
+Data Analytics
+---------------
+
+Data Application Development - Data analytics module. Programming using some language and making algorithms. But 50 CA 50 Project
+
+Business Data Analysis - All analysis of data and stats. Stuff like that and tests on it you know yourself.
+
+Advanced business Data Analysis - More of that but with added critical analysis
+
+Data and Web Mining - As it says. Web crawler, seo idk
+
